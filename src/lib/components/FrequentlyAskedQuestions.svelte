@@ -1,7 +1,10 @@
 <script>
   // import { faq } from "./configs/config.js";
-  import { faq_string1, faq_string2_back_to_home } from "$lib/strings/id";
-  let faq = [];
+  import {
+    faq_string1,
+    faq_string2_back_to_home,
+    faq_array_of_string1_question,
+  } from "$lib/strings/id";
 
   import TextHeader from "$lib/components/TextHeader.svelte";
   import TextLine from "$lib/components/TextLine.svelte";
@@ -10,7 +13,7 @@
 <TextHeader>{faq_string1}</TextHeader>
 
 <div class="flex flex-col text-left font-mono divide-y-4 max-w-4xl">
-  {#each faq as question}
+  {#each faq_array_of_string1_question as question}
     <div class="px-2 py-4">
       <p class="text-slate-500">
         <span class="text-2xl mr-4">Q</span>{question.q}
