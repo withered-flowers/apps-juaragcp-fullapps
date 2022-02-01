@@ -8,7 +8,7 @@
   const BEZIER_MEDIAN = 0.5; // utility for mid-point bezier curves, to ensure smooth motion paths
   const FORCE = 0.5; // 0-1 roughly the vertical force at which particles initially explode
   const SIZE = 12; // max height for particle rectangles, diameter for particle circles
-  const FLOOR_HEIGHT = 570; // pixels the particles will fall from initial explosion point
+  const FLOOR_HEIGHT = 720; // pixels the particles will fall from initial explosion point
   const FLOOR_WIDTH = 1200; // horizontal spread of particles in pixels
   const PARTICLE_COUNT = 150;
   const DURATION = 2500;

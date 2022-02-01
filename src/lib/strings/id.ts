@@ -22,6 +22,9 @@ export let countdown_event_string4_video_introduction3: string = `ini yah.`;
 export let countdown_event_string5_faq1: string = `Ada pertanyaan? Silahkan baca`;
 export let countdown_event_string5_faq2: string = `Pertanyaan Umum`;
 export let countdown_event_string5_faq3: string = `ini dulu yah.`;
+export let countdown_event_string6_excel1: string = `Ingin Tracking progress lab? silahkan unduh`;
+export let countdown_event_string6_excel2: string = `File excel`;
+export let countdown_event_string6_excel3: string = `ini.`;
 
 export let video_introduction_string1: string = `Video Perkenalan`;
 export let video_introduction_string2_video1: string = `JuaraGCP S7 Monthly Subscription + 1st Lab by Angga Anggia`;
