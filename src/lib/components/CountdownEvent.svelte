@@ -24,6 +24,10 @@
     countdown_event_string7_notif1,
     countdown_event_string7_notif2,
     countdown_event_string7_notif3,
+    countdown_event_string8_validator1,
+    countdown_event_string8_validator2,
+    countdown_event_string8_validator3,
+    countdown_event_string8_validator_url,
   } from "$lib/strings/id";
   import { checkEventEnded } from "$lib/utils/helper";
 
@@ -130,11 +134,13 @@
 </TextLineSmall>
 
 <TextLine>
-  Ingin mengetahui sudah sampai Tier berapa? Kunjungi <a
-    href="https://juaragcps7-validator.herokuapp.com/"
-    class="text-[#1aa260] hover:text-[#4285f4] hover:underline">Tautan ini</a
-  > untuk mengetahuinya.
+  {countdown_event_string8_validator1}<a
+    href={countdown_event_string8_validator_url}
+    class="text-[#1aa260] hover:text-[#4285f4] hover:underline"
+    >{countdown_event_string8_validator2}</a
+  >{countdown_event_string8_validator3}
 </TextLine>
+
 <TextLineSmall>
   (Special Thanks untuk <span class="font-bold">Archzen</span> yang sudah melanjutkan
   situs ini 😉)

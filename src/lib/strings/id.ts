@@ -29,6 +29,10 @@ export let countdown_event_string6_excel_url: string = `https://firebasestorage.
 export let countdown_event_string7_notif1: string = `Special Thanks untuk `;
 export let countdown_event_string7_notif2: string = `Yoga RSPR`;
 export let countdown_event_string7_notif3: string = ` yang sudah membuat file ini 😉`;
+export let countdown_event_string8_validator1: string = `Ingin mengetahui sudah sampai Tier berapa? Kunjungi `;
+export let countdown_event_string8_validator2: string = `Tautan ini`;
+export let countdown_event_string8_validator3: string = ` untuk mengetahuinya.`;
+export let countdown_event_string8_validator_url: string = `https://juaragcps7-validator.herokuapp.com/`;
 
 export let video_introduction_string1: string = `Video Perkenalan`;
 export let video_introduction_string2_video1: string = `JuaraGCP S7 Monthly Subscription + 1st Lab by Angga Anggia`;
