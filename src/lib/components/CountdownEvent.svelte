@@ -19,6 +19,11 @@
     countdown_event_string5_faq3,
     countdown_event_string6_excel1,
     countdown_event_string6_excel2,
+    countdown_event_string6_excel3,
+    countdown_event_string6_excel_url,
+    countdown_event_string7_notif1,
+    countdown_event_string7_notif2,
+    countdown_event_string7_notif3,
   } from "$lib/strings/id";
   import { checkEventEnded } from "$lib/utils/helper";
 
@@ -111,16 +116,17 @@
 <TextLine>
   {countdown_event_string6_excel1}
   <a
-    href="https://firebasestorage.googleapis.com/v0/b/dev-that-can-be-crashed.appspot.com/o/juaragcp%2FJuaraGCPSeason7Checklist.xls?alt=media&token=55680515-fcfa-4153-9d7b-87088984ebd4"
+    href={countdown_event_string6_excel_url}
     class="text-[#1aa260] hover:text-[#4285f4] hover:underline"
     >{countdown_event_string6_excel2}</a
   >
-  {countdown_event_string5_faq3}
+  {countdown_event_string6_excel3}
 </TextLine>
 
 <TextLineSmall>
-  (Special Thanks untuk <span class="font-bold">Yoga RSPR</span> yang sudah membuat
-  file ini 😉)
+  ({countdown_event_string7_notif1}
+  <span class="font-bold">{countdown_event_string7_notif2}</span
+  >{countdown_event_string7_notif3})
 </TextLineSmall>
 
 <TextLine>

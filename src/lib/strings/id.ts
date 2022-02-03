@@ -25,6 +25,10 @@ export let countdown_event_string5_faq3: string = `ini dulu yah.`;
 export let countdown_event_string6_excel1: string = `Ingin Tracking progress lab? silahkan unduh`;
 export let countdown_event_string6_excel2: string = `File excel`;
 export let countdown_event_string6_excel3: string = `ini.`;
+export let countdown_event_string6_excel_url: string = `https://firebasestorage.googleapis.com/v0/b/dev-that-can-be-crashed.appspot.com/o/juaragcp%2FJuaraGCPSeason7Checklist.xls?alt=media&token=55680515-fcfa-4153-9d7b-87088984ebd4`;
+export let countdown_event_string7_notif1: string = `Special Thanks untuk `;
+export let countdown_event_string7_notif2: string = `Yoga RSPR`;
+export let countdown_event_string7_notif3: string = ` yang sudah membuat file ini 😉`;
 
 export let video_introduction_string1: string = `Video Perkenalan`;
 export let video_introduction_string2_video1: string = `JuaraGCP S7 Monthly Subscription + 1st Lab by Angga Anggia`;
