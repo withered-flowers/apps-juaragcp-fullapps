@@ -1,40 +1,27 @@
-# create-svelte
+Countdown JuaraGCP FullApps [WIP]
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+Disclaimer:
 
-## Creating a project
+    Kode yang dibuat di sini masih minimal dan masih bisa di-refactor lagi 😉
 
-If you're seeing this, you've probably already done this step. Congrats!
+Aplikasi ini dibuat untuk menginformasikan countdown event JuaraGCP dimulai s.d. event JuaraGCP ini selesai.
 
-```bash
-# create a new project in the current directory
-npm init svelte@next
+Aplikasi ini bersifat Web Apps yang akan dideploy pada firebase, salah satu produk Google untuk membuat aplikasi, dengan menggunakan beberapa functions (firebase / cloud functions)
 
-# create a new project in my-app
-npm init svelte@next my-app
-```
+Tech stack yang digunakan untuk membuat aplikasi ini adalah:
 
-> Note: the `@next` is temporary
+    Svelte(Kit) sebagai Web Framework
+    Vite sebagai build tools
+    Tailwind sebagai CSS Utility
+    Day.js untuk pustaka pemanipulasi tanggal
+    Firebase sebagai tempat hosting aplikasi ini dan functionsnya
 
-## Developing
+Untuk menjalankan aplikasi ini, dapat dilakukan dengan cara:
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+    Clone repository ini
+    Gunakan nodejs untuk menginstall package yang dibutuhkan: npm install
+    Gunakan nodejs untuk menjalankan dalam dev: npm run dev
+    Gunakan nodejs untuk membuat aplikasi ini sehingga siap dihosting dengan npm run build
+    Hosting ke firebase, untuk lebih detil bisa dibaca pada tautan berikut: https://firebase.google.com/docs/hosting
 
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs#adapters) for your target environment.
+Selamat membaca
