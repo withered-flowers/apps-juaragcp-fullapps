@@ -33,6 +33,13 @@ export let countdown_event_string8_validator1: string = `Ingin mengetahui sudah 
 export let countdown_event_string8_validator2: string = `Tautan ini`;
 export let countdown_event_string8_validator3: string = ` untuk mengetahuinya.`;
 export let countdown_event_string8_validator_url: string = `https://juaragcps7-validator.herokuapp.com/`;
+export let countdown_event_string9_notif1: string = `Special Thanks untuk `;
+export let countdown_event_string9_notif2: string = `Archzen`;
+export let countdown_event_string9_notif3: string = ` yang sudah melanjutkan situs ini 😉`;
+export let countdown_event_string10_group1: string = `Masih buntu? Yuk join grup `;
+export let countdown_event_string10_group2: string = `telegram JuaraGCP`;
+export let countdown_event_string10_group3: string = ` untuk menanyakan lebih lanjut.`;
+export let countdown_event_string10_url: string = `https://t.me/JuaraGCP`;
 
 export let video_introduction_string1: string = `Video Perkenalan`;
 export let video_introduction_string2_video1: string = `JuaraGCP S7 Monthly Subscription + 1st Lab by Angga Anggia`;

@@ -28,6 +28,13 @@
     countdown_event_string8_validator2,
     countdown_event_string8_validator3,
     countdown_event_string8_validator_url,
+    countdown_event_string9_notif1,
+    countdown_event_string9_notif2,
+    countdown_event_string9_notif3,
+    countdown_event_string10_group1,
+    countdown_event_string10_group2,
+    countdown_event_string10_group3,
+    countdown_event_string10_url,
   } from "$lib/strings/id";
   import { checkEventEnded } from "$lib/utils/helper";
 
@@ -142,14 +149,15 @@
 </TextLine>
 
 <TextLineSmall>
-  (Special Thanks untuk <span class="font-bold">Archzen</span> yang sudah melanjutkan
-  situs ini 😉)
+  ({countdown_event_string9_notif1}<span class="font-bold"
+    >{countdown_event_string9_notif2}</span
+  >{countdown_event_string9_notif3})
 </TextLineSmall>
 
 <TextLine>
-  Masih buntu? Yuk join grup <a
-    href="https://t.me/JuaraGCP"
+  {countdown_event_string10_group1}<a
+    href={countdown_event_string10_url}
     class="text-[#1aa260] hover:text-[#4285f4] hover:underline"
-    >telegram JuaraGCP</a
-  > untuk menanyakan lebih lanjut.
+    >{countdown_event_string10_group2}</a
+  >{countdown_event_string10_group3}
 </TextLine>
